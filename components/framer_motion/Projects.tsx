@@ -34,7 +34,7 @@ export default function Projects() {
                         className="flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2 mb-4 md:mb-0">
                             <div className="relative h-fit w-fit rounded-lg overflow-hidden bg-secondary_dark">
-                                <img src={project.image} alt={project.title} className="object-fit w-fit h-fit p-1.5" />
+                                <img src={project.image} alt={project.title} className="object-cover object-center w-full h-full p-1.5" />
                             </div>
                         </div>
                         <div className="md:w-1/2 md:ml-8">
