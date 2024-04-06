@@ -19,7 +19,7 @@ export default function Experience() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
                 className="text-3xl font-bold mb-6 text-center">
-                <span className="bg-gradient-to-b from-secondary from-25% to-secondary_light underline text-transparent bg-clip-text">
+                <span className="bg-gradient-to-r from-secondary from-10% to-secondary_dark to-90% underline text-transparent bg-clip-text">
                     Experience
                 </span>
             </motion.h2>

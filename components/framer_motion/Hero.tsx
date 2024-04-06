@@ -21,7 +21,7 @@ export default function Hero() {
                 className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
                 <h1 className="text-4xl font-bold mb-4 text-secondary_dark">Torrey Smith</h1>
                 <p className="text-2xl mb-4 ">
-                    <span className="bg-gradient-to-b from-secondary from-25% to-secondary_light underline text-transparent bg-clip-text">
+                    <span className="bg-gradient-to-r from-secondary from-10% to-secondary_dark to-90% underline text-transparent bg-clip-text font-bold">
                         Full Stack Developer
                     </span>
                 </p>

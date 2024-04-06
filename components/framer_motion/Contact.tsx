@@ -37,7 +37,7 @@ export default function Contact() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
                 className="text-3xl font-bold mb-6 text-center">
-                <span className="bg-gradient-to-b from-secondary from-25% to-secondary_light text-transparent bg-clip-text">
+                <span className="bg-gradient-to-r from-secondary from-10% to-secondary_dark to-90% text-transparent bg-clip-text">
                     Get in touch with me:
                 </span>
             </motion.h2>
