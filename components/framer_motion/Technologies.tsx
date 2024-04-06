@@ -26,7 +26,7 @@ export default function Technologies() {
                 transition: { duration: 0.3 },
             }}
             viewport={{ once: false }}
-            className="mt-12 w-4/5 mx-auto">
+            className="w-4/5 mx-auto">
             <motion.h2
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ export default function Technologies() {
                             variants={itemVariants}
                             className="flex flex-col items-center">
                             <div className="relative h-20 w-20 bg-secondary_dark shadow-md rounded-lg p-4">
-                                <Image src={tech.logo} alt={tech.name} layout="fill" objectFit="contain" className="p-1.5" />
+                                <Image src={tech.logo} alt={tech.name} fill className="p-1.5" />
                             </div>
                             <p className="text-md font-bold text-secondary mt-2">{tech.name}</p>
                         </motion.div>

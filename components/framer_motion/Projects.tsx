@@ -12,7 +12,7 @@ export default function Projects() {
                 transition: { duration: 0.3 },
             }}
             viewport={{ once: false }}
-            className="mt-12 w-4/5 mx-auto overflow-hidden">
+            className="w-4/5 mx-auto overflow-hidden">
             <motion.h2
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}

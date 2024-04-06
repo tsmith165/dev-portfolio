@@ -38,7 +38,7 @@ export default function Home() {
     return (
         <PageLayout page="/">
             <div className="w-full bg-gradient-to-b from-primary to-primary_dark to-20%">
-                <div className="w-full py-12">
+                <div className="w-full py-12 space-y-10">
                     <Hero />
                     <Technologies />
                     <Experience />
