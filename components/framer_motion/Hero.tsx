@@ -12,7 +12,7 @@ export default function Hero() {
                 scale: 1.02,
                 transition: { duration: 0.3 },
             }}
-            className="flex flex-col md:flex-row items-center justify-center w-4/5 mx-auto">
+            className="flex flex-col md:flex-row items-center justify-center w-4/5 mx-auto overflow-hidden">
             <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 whileInView={{ opacity: 1, y: 0 }}

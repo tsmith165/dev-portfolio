@@ -13,7 +13,7 @@ const contactItems = [
 export default function Contact() {
     const itemVariants = {
         hidden: (direction: string) => ({
-            x: direction === 'left' ? '-15%' : '15%',
+            x: direction === 'left' ? 400 : -400,
             opacity: 0,
         }),
         visible: {
@@ -32,9 +32,9 @@ export default function Contact() {
                 transition: { duration: 0.3 },
             }}
             viewport={{ once: false }}
-            className="mt-12 w-4/5 mx-auto">
+            className="mt-12 w-4/5 mx-auto overflow-hidden">
             <motion.h2
-                initial={{ opacity: 0, y: -50 }}
+                initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}

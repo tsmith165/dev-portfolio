@@ -12,9 +12,9 @@ export default function Volunteering() {
                 transition: { duration: 0.3 },
             }}
             viewport={{ once: false }}
-            className="mt-12 w-4/5 mx-auto">
+            className="mt-12 w-4/5 mx-auto overflow-hidden">
             <motion.h2
-                initial={{ opacity: 0, y: -50 }}
+                initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
@@ -27,7 +27,7 @@ export default function Volunteering() {
                 {volunteering.map((vol, index) => (
                     <motion.div
                         key={vol.organization}
-                        initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                        initial={{ opacity: 0, x: index % 2 === 0 ? 200 : -200 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: false }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}

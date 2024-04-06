@@ -8,9 +8,9 @@ type PageLayoutProps = {
 
 export default function PageLayout({ children, page }: PageLayoutProps) {
     return (
-        <div className="min-h-screen bg-gray-100">
+        <div className="">
             <Navbar />
-            <main className="h-screen">{children}</main>
+            <main className="">{children}</main>
         </div>
     );
 }

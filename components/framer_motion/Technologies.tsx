@@ -28,7 +28,7 @@ export default function Technologies() {
             viewport={{ once: false }}
             className="mt-12 w-4/5 mx-auto">
             <motion.h2
-                initial={{ opacity: 0, y: -50 }}
+                initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
