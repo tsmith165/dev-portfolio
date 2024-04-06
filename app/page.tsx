@@ -1,4 +1,3 @@
-// /app/page.tsx
 import { Metadata } from 'next';
 import React from 'react';
 import PageLayout from '../components/layout/PageLayout';
@@ -17,6 +16,21 @@ export const metadata: Metadata = {
             url: '/favicon.svg',
             type: 'image/svg+xml',
         },
+    },
+    openGraph: {
+        title: 'Torrey Smith - Portfolio',
+        description: 'Development Lead and Full Stack Developer',
+        url: 'https://www.torreysmith.dev',
+        siteName: 'Torrey Smith - Portfolio',
+        images: [
+            {
+                url: '/torrey_smith_dev_screenshot.png',
+                width: 1200,
+                height: 630,
+            },
+        ],
+        locale: 'en-US',
+        type: 'website',
     },
 };
 
