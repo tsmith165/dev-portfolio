@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Link from 'next/link';
 
 const contactItems = [
     { label: 'Email', value: 'torreysmith165@gmail.com', direction: 'right', icon: FaEnvelope },
@@ -52,7 +53,9 @@ export default function Contact() {
                         variants={itemVariants}
                         className="flex items-center justify-center text-primary hover:text-secondary_light">
                         {item.icon ? <item.icon className="mr-2" size={24} /> : null}
-                        <span>{item.value}</span>
+                        <Link href={`https://${item.value}`} passHref>
+                            <span>{item.value}</span>
+                        </Link>
                     </motion.div>
                 ))}
             </div>
