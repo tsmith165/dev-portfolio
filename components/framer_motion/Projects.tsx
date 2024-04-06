@@ -33,8 +33,8 @@ export default function Projects() {
                         transition={{ duration: 0.5, delay: index * 0.2 }}
                         className="flex flex-col md:flex-row items-center">
                         <div className="md:w-1/2 mb-4 md:mb-0">
-                            <div className="relative h-fit w-full rounded-lg overflow-hidden bg-primary_dark">
-                                <img src={project.image} alt={project.title} className="object-fit w-full h-fit p-1.5" />
+                            <div className="relative h-fit w-fit rounded-lg overflow-hidden bg-secondary_dark">
+                                <img src={project.image} alt={project.title} className="object-fit w-fit h-fit p-1.5" />
                             </div>
                         </div>
                         <div className="md:w-1/2 md:ml-8">
