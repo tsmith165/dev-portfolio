@@ -1,4 +1,13 @@
-// data.ts
+export const portfolio = {
+    name: 'Torrey Smith',
+    title: 'Full Stack Developer',
+    bio: 'Energetic and driven development professional with over 7 years of experience in SSD test automation and validation. Proven track record of leading teams to success, achieving 100% test coverage and 15% improvement in product quality. Passionate about continuous learning and leveraging strong programming skills to quickly adapt to new technologies.',
+    bioImage: '/bio_image.png',
+    email: 'torreysmith165@gmail.com',
+    linkedin: 'linkedin.com/in/torrey-smith',
+    github: 'github.com/tsmith165',
+};
+
 export const technologies = [
     { name: 'Python', logo: '/python_logo.png' },
     { name: 'Node.js', logo: '/nodejs_logo.png' },
@@ -39,7 +48,7 @@ export const projects = [
         title: 'JWS Fine Art',
         description: 'Art gallery sales site that fully handles web orders, payment processing, shipping, and support.',
         image: '/jws_fine_art-gallery_screenshot.png',
-        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgresQl', 'Stripe', 'AWS S3'],
+        technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQl', 'Stripe', 'AWS S3'],
     },
     {
         title: 'Rust Wipes',
@@ -52,7 +61,7 @@ export const projects = [
 
 export const volunteering = [
     {
-        organization: 'Elk Grove High School',
+        organization: 'Elk Grove HS Volleyball',
         position: 'Assistant Coach',
         duration: '01/2017 - 01/2019',
         description:

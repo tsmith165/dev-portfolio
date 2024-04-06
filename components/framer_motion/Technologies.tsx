@@ -33,7 +33,7 @@ export default function Technologies() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
                 className="text-3xl font-bold mb-6 text-center">
-                <span className="bg-gradient-to-r from-secondary from-10% to-secondary_dark to-90% underline text-transparent bg-clip-text">
+                <span className="bg-gradient-to-r from-secondary_light via-secondary via-30% to-primary to-65% underline text-transparent bg-clip-text">
                     Technologies
                 </span>
             </motion.h2>

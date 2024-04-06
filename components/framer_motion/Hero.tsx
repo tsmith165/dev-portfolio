@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { portfolio } from '../../lib/portfolio_data';
 
 export default function Hero() {
     return (
@@ -19,17 +20,13 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
                 animate={{ opacity: 1, x: 0 }}
                 className="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
-                <h1 className="text-4xl font-bold mb-4 text-secondary_dark">Torrey Smith</h1>
+                <h1 className="text-4xl font-bold mb-4 text-secondary_dark">{portfolio.name}</h1>
                 <p className="text-2xl mb-4 ">
-                    <span className="bg-gradient-to-r from-secondary from-10% to-secondary_dark to-90% underline text-transparent bg-clip-text font-bold">
-                        Full Stack Developer
+                    <span className="bg-gradient-to-r from-secondary_light via-secondary via-30% to-primary_dark to-55% underline text-transparent bg-clip-text font-bold">
+                        {portfolio.title}
                     </span>
                 </p>
-                <p className="text-secondary">
-                    Energetic and driven development professional with over 7 years of experience in SSD test automation and validation.
-                    Proven track record of leading teams to success, achieving 100% test coverage and 15% improvement in product quality.
-                    Passionate about continuous learning and leveraging strong programming skills to quickly adapt to new technologies.
-                </p>
+                <p className="text-secondary">{portfolio.bio}</p>
             </motion.div>
             <motion.div
                 initial={{ opacity: 0, x: 100 }}
@@ -39,7 +36,7 @@ export default function Hero() {
                 animate={{ opacity: 1, x: 0 }}
                 className="md:w-1/2 flex justify-center">
                 <div className="relative h-72 w-72 rounded-xl overflow-hidden bg-secondary_dark">
-                    <Image src="/bio_image.png" alt="Torrey Smith" layout="fill" objectFit="cover" className="p-1.5 rounded-xl" />
+                    <Image src={portfolio.bioImage} alt={portfolio.name} layout="fill" objectFit="cover" className="p-1.5 rounded-xl" />
                 </div>
             </motion.div>
         </motion.div>

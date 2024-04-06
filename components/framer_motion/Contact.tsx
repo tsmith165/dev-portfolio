@@ -2,11 +2,12 @@
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Link from 'next/link';
+import { portfolio } from '../../lib/portfolio_data';
 
 const contactItems = [
-    { label: 'Email', value: 'torreysmith165@gmail.com', direction: 'right', icon: FaEnvelope },
-    { label: 'LinkedIn', value: 'linkedin.com/in/torrey-smith', direction: 'left', icon: FaLinkedin },
-    { label: 'GitHub', value: 'github.com/tsmith165', direction: 'right', icon: FaGithub },
+    { label: 'Email', value: portfolio.email, direction: 'right', icon: FaEnvelope },
+    { label: 'LinkedIn', value: portfolio.linkedin, direction: 'left', icon: FaLinkedin },
+    { label: 'GitHub', value: portfolio.github, direction: 'right', icon: FaGithub },
 ];
 
 export default function Contact() {
@@ -38,8 +39,8 @@ export default function Contact() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.8 }}
                 className="text-3xl font-bold mb-6 text-center">
-                <span className="bg-gradient-to-r from-secondary from-10% to-secondary_dark to-90% text-transparent bg-clip-text">
-                    Get in touch with me:
+                <span className="bg-gradient-to-r from-secondary_light via-secondary via-30% to-primary to-65% text-transparent bg-clip-text">
+                    Ways to reach out
                 </span>
             </motion.h2>
             <div className="space-y-4 text-center">
