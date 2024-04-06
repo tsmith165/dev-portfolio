@@ -24,7 +24,7 @@ export const metadata: Metadata = {
         siteName: 'Torrey Smith - Portfolio',
         images: [
             {
-                url: '/torrey_smith_dev_screenshot.png',
+                url: 'https://www.torreysmith.dev/torrey_smith_dev_screenshot.png',
                 width: 1200,
                 height: 630,
             },
