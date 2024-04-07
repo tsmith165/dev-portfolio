@@ -1,4 +1,5 @@
 const colorPalettes: Record<string, string> = {
+    'drifting-away': 'https://coolors.co/516760-252d29-c5fbdc-69c9ab-1b4b3c',
     'sunny-days': 'https://coolors.co/fdc500-ffd500-00296b-003f88-00509d',
     'violet-beauregarde': 'https://coolors.co/9b5de5-8b008b-89cff0-6050dc-00009c',
     'ocean-spray': 'https://coolors.co/5c6f68-8aa39b-95d9c3-a4f9c8-a7fff6',

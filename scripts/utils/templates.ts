@@ -5,6 +5,10 @@ export interface Template {
 
 export const templates: Template[] = [
     {
+        name: 'dev-portfolio',
+        description: 'A Portfolio project using Next.js, Tailwind CSS, and Framer Motion',
+    },
+    {
         name: 'nextjs-tailwind-navbar',
         description: 'A Next.js project with Tailwind CSS and a custom navbar component',
     },
